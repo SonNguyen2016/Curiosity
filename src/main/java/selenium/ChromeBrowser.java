@@ -26,7 +26,8 @@ public class ChromeBrowser {
 //        testXPath();
 //        testButtonClick();
         testClassName();
-        
+        Str
+
     }
 
     private static void testXPath() {
