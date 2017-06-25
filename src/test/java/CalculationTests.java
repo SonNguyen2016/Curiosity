@@ -32,5 +32,11 @@ public class CalculationTests {
         logger.info(a + "     " + b);
         int expectedResult = a + b;
         Assert.assertTrue(expectedResult == Calculation.addition(a, b));
+
+        try {
+            Thread.sleep(200);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 }
