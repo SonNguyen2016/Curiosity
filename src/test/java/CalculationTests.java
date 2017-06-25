@@ -14,7 +14,7 @@ public class CalculationTests {
 
     @DataProvider(name = "RandomNumbersGenerator")
     public Object[][] randomNumbersGenerator() {
-        PropertyConfigurator.configure("/Users/sonnguyen/Desktop/Curiosity/src/log4j.properties");
+        PropertyConfigurator.configure("src/log4j.properties");
 
         Object[][] objects = new Object[1000][2];
 
